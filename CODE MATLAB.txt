@@ -1,0 +1,27 @@
+function fruit
+fid = fopen('C:\Users\Gena\Desktop\MATALB\Report.txt', 'wt');
+
+%
+RGB = imread('sample.png');
+c = [1 12 146 410];
+r = [1 104 156 129];
+
+pixels = impixel(RGB, c, r);
+%%range = input(prompt,'s')
+
+%
+countBlacks = 0;
+countColor = 0;
+
+n = 0;
+while n<4
+    pixels(1,1)
+    
+end
+
+%print to file
+printf(fid,'%d %d', pixels, range);
+
+
+end
+

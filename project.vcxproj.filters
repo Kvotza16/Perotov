@@ -21,24 +21,9 @@
     <ClCompile Include="worker.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="fruit.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="status.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="worker.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="fruit.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="status.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="privilages.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

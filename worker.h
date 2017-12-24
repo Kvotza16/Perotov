@@ -12,15 +12,12 @@ class worker
 protected:
 	string name;
 	int id;
-	string password;
 	int level;
 public:
 	worker();
-	worker(string name, int id, int level, string password);
+	worker(string name, int id, int precent);
 	void getid_worker()const;//retrn id
-	int get_level();
-	string get_name();
-	string get_password();
+	void get_level();
 	void print();
 	~worker();
 };
