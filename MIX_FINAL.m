@@ -1,6 +1,5 @@
-function MIX
+function MIX_FINAL
 
-fid = fopen('C:\Users\Bar\Documents\Visual Studio 2017\Projects\Petutov\project\report.txt', 'wt');
 
 %get the image path from user
 % ?????? (get value from user into variable and open the releavent image
@@ -38,6 +37,7 @@ black_b =[100 200];
 fid = fopen('C:\Users\Bar\Documents\Visual Studio 2017\Projects\Petutov\project\report.txt', 'wt');
  while(1);
      
+fid = fopen('C:\Users\Bar\Documents\Visual Studio 2017\Projects\Petutov\project\report.txt', 'wt');
 prompt = 'Enter the name of file:  '; % name of file
 
 
@@ -199,23 +199,22 @@ subplot(2,2,3), imshow(I), title (str{4});
 subplot(2,2,4),imshow(fruit_imadjust), title (str{5});
 
 % Report
-prompt = 'If the fruit high quality or not? (yes/no):   ';% change
+prompt = 'please check the fruit in the main program.\npress any key to clean the file:';% change
 originality = input(prompt,'s');
 
 % fprintf (fid, ' %6s %6s \n', fname, originality);
 
 
 
-answer=input('Do you want to continue, Y/N [Y]/[N]:','s');
-if (answer=='N' || answer=='n')
-break
+%answer=input('Do you want to continue, Y/N [Y]/[N]:','s');
+%if (answer=='N' || answer=='n')
+%break
+ fclose(fid);
 end    
 
 
 
  end
- fclose(fid);
-end
 
 
 
